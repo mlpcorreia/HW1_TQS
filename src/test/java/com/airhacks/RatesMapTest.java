@@ -5,9 +5,6 @@
  */
 package com.airhacks;
 
-import java.util.ArrayList;
-import java.util.List;
-import javax.ejb.embeddable.EJBContainer;
 import junit.framework.TestCase;
 import org.junit.After;
 import org.junit.Before;

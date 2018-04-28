@@ -39,6 +39,7 @@ public class RatesMap {
     @PostConstruct
     public void initialize(){
         this.ratesMap = new HashMap<>();
+        ratesMap.put("teste", new Rates("testRate", 0));
     }
     
     public double findRate(String str_rate){
